@@ -1,0 +1,32 @@
+body{
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:0;
+  margin-right:auto;
+  margin-bottom: 0;
+  margin-left:auto;
+  width:100vw;
+  min-height:calc(100vh - 100px);
+  text-align:center;
+}
+
+hr{
+  width:80%;
+  height:3px;
+  background-color:black;
+}
+
+section{
+  display:inline-block;
+  width:33.33333%;
+  height:180px
+}
+
+li{
+  text-align:left;
+}
+
+main {
+  display: flex;
+  margin-top:60px;
+}

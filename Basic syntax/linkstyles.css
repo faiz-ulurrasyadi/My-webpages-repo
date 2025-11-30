@@ -1,0 +1,30 @@
+a:hover {
+  color: red;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: green;
+}
+a:focus {
+  color: yellow;
+}
+a:link {
+  color: green;
+}
+.color1{
+    background: linear-gradient(to right, red, yellow);
+    height: 200px;
+    width: 200px;
+}
+.color2{
+    background: radial-gradient(circle, green, blue);
+    height: 200px;
+    width: 200px;
+}
+.color3{
+    background: radial-gradient(ellipse at top left, green, blue);
+    height: 200px;
+    width: 200px;
+}

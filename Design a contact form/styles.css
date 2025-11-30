@@ -1,0 +1,45 @@
+body{
+  text-align:center;
+  background-color:lightblue;
+}
+
+.form-container{
+  background-color: white;
+  border-radius: 20px;
+  padding: 2px;
+  width: 400px;
+  margin:50px auto;
+}
+
+label{
+  margin:2px;
+  display:block;
+  color:black;
+  font-size:20px;
+}
+
+input, textarea{
+  width:70%;
+  padding:2px;
+  margin-bottom:10px;
+}
+
+button{
+  background-color:rgb(90, 181, 90);
+  font-size:18px;
+  color:white;
+  border-radius:4px;
+  width: 100px;
+  height: 40px;
+  border: 2px solid rgb(90, 181, 90);
+  display:block;
+  margin:20px auto;
+}
+
+button:hover{
+  background-color:rgb(71, 141, 71);
+  cursor:pointer;
+}
+
+** end of styles.css **
+
