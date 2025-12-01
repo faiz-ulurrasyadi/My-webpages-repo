@@ -1,0 +1,86 @@
+body{
+  font-size: 18px;
+}
+
+table{
+  margin: auto;
+  text-align:center;
+}
+h1{
+  text-align: center
+}
+.read{
+  background-color: linear-gradient(to top, red, white);
+}
+.to-read{
+  background-color: linear-gradient(to top, red, white);
+}
+.in-progress{
+  background-color: linear-gradient(to top, red, white);
+}
+
+span{
+  display: inline-block;
+}
+
+tr[class="read"] span[class="status"]{
+  border: 2px solid green;
+  background-image: linear-gradient(to top, lightgreen 80%, white);
+  text-align: center;
+  border-radius: 20px;
+}
+
+tr[class="to-read"] span[class="status"]{
+  border: 2px solid red;
+  background-image: linear-gradient(to top, rgb(224, 108, 69) 90%, white);
+  text-align: center;
+  border-radius: 20px;
+}
+
+tr[class="in-progress"] span[class="status"]{
+  border: 2px solid rgb(192, 172, 60);
+  background-image: linear-gradient(to top, gold 90%, white);
+  
+  text-align: center;
+  border-radius: 20px;
+}
+
+span[class="status"], span[class^="rate"]{
+  width: 120px;
+  height: 30px;
+  padding: 8px 0 2px 0;
+  text-align:center;
+}
+
+span[class^="rate"] > span{
+  background-color: rgb(226, 226, 12);
+  width: 15px;
+  height: 15px;
+  border: 2px solid grey;
+  border-radius: 7.5px;
+  margin: 0 2px;
+}
+
+span[class~="two"] span:nth-child(-n+2){
+  background-image: linear-gradient(to top, grey, white);
+}
+
+span[class~="three"] span{
+  background-image: linear-gradient(to top, grey, white);
+}
+
+span[class~="one"] span:nth-child(1){
+  background-image: linear-gradient(to top, grey, white);
+}
+
+tr[class="read"]{
+  background-image: linear-gradient(to top, rgb(9, 232, 9) 10%, rgb(236, 230, 230));
+}
+
+tr[class="to-read"]{
+  background-image: linear-gradient(to top, rgb(224, 91, 91) 10%, rgb(232, 221, 221));
+}
+
+tr[class="in-progress"]{
+  background-image: linear-gradient(to top, rgb(234, 211, 82) 10%, rgb(251, 239, 239));
+}
