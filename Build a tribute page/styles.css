@@ -1,9 +1,16 @@
+#main{
+  background-color:antiquewhite;
+  margin-top: 3px;
+}
+
 #title{
   text-align: center;
+  padding-top: 30px;
 }
 
 #img-caption{
   text-align: center;
+  margin-top: 10px;
 }
 
 h2{
@@ -11,8 +18,25 @@ h2{
 }
 
 #image{
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.tribute-desc{
+  width: 80%;
+  margin:20px auto;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+footer{
+  text-align: center;
 }
