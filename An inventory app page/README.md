@@ -1,2 +1,2 @@
 Website preview
-[Book Inventory](image.png)
+![Book Inventory](image.png)
