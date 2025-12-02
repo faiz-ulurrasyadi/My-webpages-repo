@@ -28,3 +28,17 @@ a:link {
     height: 200px;
     width: 200px;
 }
+
+.try{
+  display:flex;
+}
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+}
