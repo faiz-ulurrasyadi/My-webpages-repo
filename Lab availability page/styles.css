@@ -1,0 +1,67 @@
+:root{
+  --color0: green;
+  --color1: rgb(0,145,0);
+  --color2: rgb(0,165,0);
+  --color3: rgb(0,185,0);
+  --color4: rgb(0,225,0);
+  --color5: rgb(0,255,0);
+  --solid-border: 1px solid black;
+  --dashed-border: 1px dashed black;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+tr{
+  height: 1.1rem;
+}
+
+tr :first-child{
+  width:4rem;
+}
+
+.sharp td{
+  border-bottom: var(--solid-border);
+}
+
+.half td{
+  border-bottom: var(--dashed-border);
+}
+
+.available-0{
+  background-color: var(--color0);
+}
+
+.available-1{
+  background-color: var(--color1);
+}
+
+.available-2{
+  background-color: var(--color2);
+}
+
+.available-3{
+  background-color: var(--color3);
+}
+
+.available-4{
+  background-color: var(--color4);
+}
+
+.available-5{
+  background-color: var(--color5);
+}
+
+#legend-gradient{
+  width: 200px;
+  height: 20px;
+  background-image: linear-gradient(to right, 
+  var(--color0) 0% 15%, 
+  var(--color1) 15% 32%,
+  var(--color2) 32% 49%,
+  var(--color3) 49% 66%,
+  var(--color4) 66% 83%,
+  var(--color5) 83% 100%
+  );
+}
